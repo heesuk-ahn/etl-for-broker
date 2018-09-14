@@ -1,5 +1,14 @@
-# etl-for-kafka
+# etl-for-broker
 
+<Developer's Posts>
+
+this project is my older `extract transform broker` project.
+
+I moved my git account to my current account and then transferred my previously open project `etl-for-kafka` to my current account.
+
+In this project, I did not use any libraries other than the kafka consumer and the basic JDBC libraries.
+
+Because this project was a challenge for me to make 'extract, transform, load' at the framework level without using the library.
 
 ## How to Run
 
@@ -51,5 +60,3 @@ new StreamContext
 
 ## SERVCE FLOW 2. Duplicate data case for 10 minutes
 ![flow2](stream2.png)
-
-
